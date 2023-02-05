@@ -1,0 +1,16 @@
+.table-data {
+  width: 70rem;
+}
+
+.dashboard-text {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+@media (max-width: 640px) {
+  .table-data {
+    width: 18rem;
+  }
+}

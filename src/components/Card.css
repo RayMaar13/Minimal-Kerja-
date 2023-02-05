@@ -1,0 +1,42 @@
+.card {
+  width: 380px;
+  height: 180px;
+}
+
+.logo_company img {
+  width: 58px;
+  height: 58px;
+  object-fit: cover;
+}
+
+.logo_company-title h1 {
+  font-weight: 700;
+}
+
+.font-awesome {
+  align-items: center;
+}
+
+.font-awesome i {
+  margin-right: 7px;
+  font-size: 14px;
+}
+
+@media (max-width: 640px) {
+
+  .card {
+    width: 340px;
+    height: fit-content;
+  }
+
+  .company {
+    flex-direction: column;
+    gap: 1;
+  }
+  
+  .logo_company img {
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+  }
+}

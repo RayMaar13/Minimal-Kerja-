@@ -1,0 +1,71 @@
+.sidebar-title {
+  font-size: 20px;
+}
+
+.fa-filter {
+  font-size: 4px;
+}
+
+.side-bar {
+  position: relative;
+}
+
+
+@media (max-width: 640px) {
+  .filter {
+    flex-direction: column;
+    width: 100vw;
+    height: 80px;
+    align-items: center;
+
+  }
+
+  .show-filter {
+    padding: 1.2rem 0.5rem;
+    display: block;
+    width: 100vw;
+    position: absolute;
+    height: fit-content;
+    top: 100px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(229 231 235) ;
+    animation: down-filter 450ms;
+    z-index: 40;
+  }
+
+  .filter-button {
+    width: 90vw;
+    padding: 0.4rem 1.7rem;
+    text-align: center;
+  }
+  
+  .side-bar {
+    position: relative;
+  }
+}
+
+@keyframes down-filter {
+  0% {
+    top:  0px;
+    opacity: -1;
+  }
+  25% {
+    top: 25px;
+    opacity: 0;
+  }
+  50% {
+    top: 50px;
+    opacity: 0.70;
+  }
+  75% {
+    top: 75px;
+    opacity: 0.80;
+  }
+
+  100% {
+    top: 100px;
+    opacity: 1;
+  }
+
+
+}

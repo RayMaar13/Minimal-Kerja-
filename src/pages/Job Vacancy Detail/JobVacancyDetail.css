@@ -1,0 +1,15 @@
+.job-detail-text {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.7rem;
+  
+}
+
+.container-detail {
+  width: 1200px;
+}
+
+@media (max-width: 640px) {
+  .container-detail {
+    width: 100vw;
+  }
+}

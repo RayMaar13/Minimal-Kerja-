@@ -1,0 +1,9 @@
+.job-vacancy {
+  display: flex;
+}
+
+@media (max-width: 640px) {
+  .job-vacancy {
+    flex-direction: column;
+  }
+}

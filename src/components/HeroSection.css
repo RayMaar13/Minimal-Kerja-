@@ -1,0 +1,11 @@
+.bg-color {
+  background-color: #F4F5FE;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.z-index {
+  z-index: -2;
+}
